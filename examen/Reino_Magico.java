@@ -7,7 +7,6 @@ public class Reino_Magico{
     //contructor vacio
     public static int totalPersonajes = 0;
     public Personaje() {
-        totalPersonajes
     }
 
     // Constructor parametros
@@ -16,8 +15,15 @@ public class Reino_Magico{
         this.edad = edad;
         this.raza = raza;
         this.nivel = nivel;
-        
     }
+       // Métodos
+    public void mostrarInfo() {
+        System.out.println("Nombre: " +this.nombre);
+        System.out.println("Edad: " +this.edad);
+        System.out.println("Raza: " +this.raza);
+        System.out.println("Nivel: " +this.nivel);
+    }
+
 
     
 }
