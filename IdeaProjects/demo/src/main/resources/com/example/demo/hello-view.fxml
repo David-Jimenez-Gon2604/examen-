@@ -13,11 +13,12 @@
     <Label fx:id="welcomeText" />
    <Pane prefHeight="299.0" prefWidth="319.0">
       <children>
-          <Button layoutX="14.0" layoutY="150.0" onAction="#onHelloButtonClick" text="Circulo" />
-         <Button layoutX="102.0" layoutY="150.0" mnemonicParsing="false" text="Rectangulo" />
+          <Button layoutX="14.0" layoutY="150.0" onAction="#onCirculoButtonClick" text="Circulo" />
+         <Button layoutX="102.0" layoutY="150.0" mnemonicParsing="false" onAction="#onRectanguloButtonClick" text="Rectangulo" />
          <Button layoutX="204.0" layoutY="150.0" mnemonicParsing="false" text="Cuadrado" />
          <Button layoutX="104.0" layoutY="210.0" mnemonicParsing="false" text="Calcular Area" />
-         <Circle fx:id="mostrarCirculo" fill="DODGERBLUE" layoutX="140.0" layoutY="72.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+         <Circle fx:id="mostrarCirculo" fill="DODGERBLUE" layoutX="140.0" layoutY="72.0" onDragDetected="#onCirculoButtonClick" onDragDone="#onCirculoButtonClick" onDragDropped="#onCirculoButtonClick" onDragEntered="#onCirculoButtonClick" onDragExited="#onCirculoButtonClick" onDragOver="#onCirculoButtonClick" onMouseDragEntered="#onCirculoButtonClick" onMouseDragExited="#onCirculoButtonClick" onMouseDragOver="#onCirculoButtonClick" onMouseDragReleased="#onCirculoButtonClick" radius="58.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="95.0" layoutX="40.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="212.0" />
       </children>
    </Pane>
 </VBox>
