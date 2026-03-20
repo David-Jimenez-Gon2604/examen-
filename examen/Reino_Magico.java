@@ -7,11 +7,11 @@ public class Reino_Magico{
 
     //vacio
     public static int totalPersonajes = 0;
-    public Personaje() {
+    public Reino_Magico() {
     }
 
     // parametros
-    public Personaje(String nombre, int edad, String raza, int nivel) {
+    public Reino_Magico(String nombre, int edad, String raza, int nivel) {
         this.nombre = nombre;
         this.edad = edad;
         this.raza = raza;
